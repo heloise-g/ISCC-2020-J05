@@ -1,0 +1,112 @@
+body{
+    font-size: 14px;
+    font-family: Open-Sans;
+    background-color: #f2f2f2;
+}
+.contenu{
+    max-width: 810px;
+    margin-left: auto;
+    margin-right:auto ;
+    text-align: center;
+    padding: 10px;
+    width: 750px;
+}
+header{
+    background-image: url(image-fond.jpg);
+    height: 150px;
+}
+#titre{
+    font-family: nasalization-rg;
+    font-size: 40px;
+    color: #27d1ff;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 17px;
+}
+.navigation{
+    background-color: #2e2f30;
+    float: right;
+    text-align: right;
+}
+.liens{
+    padding-right: 50px;
+    margin: 0px;
+    color: white;
+    text-align: right;
+    vertical-align: middle;
+}
+.lienpageactuel{
+    color: #17c1ff;
+}
+fieldset:hover a {
+    text-decoration: none;
+    color: #17c1ff;
+}
+footer{
+    text-align: center;
+}
+table{
+    border-collapse: collapse
+}
+td{
+    border: 1px solid black;
+    padding: 10px;
+}
+.Titre-secondaires{
+    text-shadow: 2px 2px 4px black;
+    background-color: #e6e6e6;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#formulaire{
+    width: 300px;
+    padding: 8px;
+    font-family: Open-Sans;
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+#name{
+    width: 250px;
+    height: 30px;
+    border: solid #e6e6e6 2px;
+}
+#mail{
+    width: 250px;
+    height: 30px;
+    border: solid #e6e6e6 2px;
+    margin-top: 25px;
+}
+#msg{
+    width: 250px;
+    border: solid #e6e6e6 2px;
+    margin-top: 25px;
+}
+#name:hover{
+    border-color: blue;
+}
+#mail:hover{
+    border-color: blue;
+}
+#msg:hover{
+    border-color: blue;
+}
+#button{
+    background-color: blue;
+    border-color: blue;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+#button:hover{
+    background-color: #17c1ff;
+    border-color: #17c1ff;
+}
+button:active{
+    box-shadow: black 10px;
+}   
+@font-face{font-family: nasalization-rg; src: url("nasalization-rg.ttf");}
+@font-face{font-family: Open-Sans; src:url("OpenSans-Regular.ttf");}
